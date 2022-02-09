@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MFPEProject\\Retail_Product_Management\\ProductMicroservice\\ProductMicroservice.csproj": {}
+    "D:\\Bharath\\Project\\retail_product_management_adm21dn014_pod5\\Retail_Product_Management\\ProductMicroservice\\ProductMicroservice.csproj": {}
   },
   "projects": {
-    "D:\\MFPEProject\\Retail_Product_Management\\ProductMicroservice\\ProductMicroservice.csproj": {
+    "D:\\Bharath\\Project\\retail_product_management_adm21dn014_pod5\\Retail_Product_Management\\ProductMicroservice\\ProductMicroservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MFPEProject\\Retail_Product_Management\\ProductMicroservice\\ProductMicroservice.csproj",
+        "projectUniqueName": "D:\\Bharath\\Project\\retail_product_management_adm21dn014_pod5\\Retail_Product_Management\\ProductMicroservice\\ProductMicroservice.csproj",
         "projectName": "ProductMicroservice",
-        "projectPath": "D:\\MFPEProject\\Retail_Product_Management\\ProductMicroservice\\ProductMicroservice.csproj",
-        "packagesPath": "C:\\Users\\Pranay Sagar\\.nuget\\packages\\",
-        "outputPath": "D:\\MFPEProject\\Retail_Product_Management\\ProductMicroservice\\obj\\",
+        "projectPath": "D:\\Bharath\\Project\\retail_product_management_adm21dn014_pod5\\Retail_Product_Management\\ProductMicroservice\\ProductMicroservice.csproj",
+        "packagesPath": "C:\\Users\\chand\\.nuget\\packages\\",
+        "outputPath": "D:\\Bharath\\Project\\retail_product_management_adm21dn014_pod5\\Retail_Product_Management\\ProductMicroservice\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Pranay Sagar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,6 +59,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.13, 5.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -63,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
