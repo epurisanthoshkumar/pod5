@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "9qo0Vcn350uxmT7i/sZ6S0rAQX0UCrjFSD6LfnMiyb4rX1DR06rhfTnQQKahT4aI+puBDWOII9yvWAE3FDH5hA==",
+  "success": true,
+  "projectFilePath": "D:\\MFPEProject\\Retail_Product_Management\\Retail_Product_Management\\VendorMicroservice\\VendorMicroservice.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Pranay Sagar\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Pranay Sagar\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Pranay Sagar\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\Pranay Sagar\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Pranay Sagar\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Pranay Sagar\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
