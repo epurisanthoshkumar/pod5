@@ -1,0 +1,112 @@
+﻿@model ECommercePortal.Models.Show
+
+@{ ViewData["Title"] = "CartStatus"; }
+
+<link href="~/css/CartStatusStyle.css" rel="stylesheet" />
+<center>
+    <div class="loginbox">
+        <div class="container">
+            <div class="col-lg-3 col-md-2"></div>
+            <div class="col-lg-6 col-md-8 login-box">
+                <div class="col-lg-12 login-key">
+                    <i class="fa fa-key" aria-hidden="true"></i>
+                </div>
+                <div class="col-lg-12 login-title">
+                    <h2>Cart Details</h2>
+                </div>
+                <hr />
+                        <table class="table">
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.CartId)
+                                </th>
+                                <td>
+                                    @Html.DisplayFor(model => model.CartId)
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.CustomerID)
+                                </th>
+                                <td>
+                                    @Html.DisplayFor(model => model.CustomerID)
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.ProductId)
+                                </th>
+                                <td>
+                                    @Html.DisplayFor(model => model.ProductId)
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Zipcode)
+                                </th>
+                                <td>
+                                    @Html.DisplayFor(model => model.Zipcode)
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.DeliveryDate)
+                                </th>
+                                <td>
+                                    @Html.DisplayFor(model => model.DeliveryDate)
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.VendorId)
+                                </th>
+                                <td>
+                                    @Html.DisplayFor(model => model.VendorId)
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.VendorName)
+                                </th>
+                                <td>
+                                    @Html.DisplayFor(model => model.VendorName)
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.DeliveryCharge)
+                                </th>
+                                <td>
+                                    @Html.DisplayFor(model => model.DeliveryCharge)
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Rating)
+                                </th>
+                                <td>
+                                    @Html.DisplayFor(model => model.Rating)
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.ExpectedDateOfDelivery)
+                                </th>
+                                <td>
+                                    @Html.DisplayFor(model => model.ExpectedDateOfDelivery)
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <div>
+                            <a asp-action="Index">Back to List</a>
+                        </div>
+                        <br />
+                        <br />
+                        <br />
+                    </div>
+                </div>
+            </div>
+</center>
+
+
