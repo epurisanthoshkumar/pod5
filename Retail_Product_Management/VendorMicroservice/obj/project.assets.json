@@ -198,11 +198,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MFPEProject\\Retail_Product_Management\\Retail_Product_Management\\VendorMicroservice\\VendorMicroservice.csproj",
+      "projectUniqueName": "D:\\MFPEProject\\Retail_Product_Management\\VendorMicroservice\\VendorMicroservice.csproj",
       "projectName": "VendorMicroservice",
-      "projectPath": "D:\\MFPEProject\\Retail_Product_Management\\Retail_Product_Management\\VendorMicroservice\\VendorMicroservice.csproj",
+      "projectPath": "D:\\MFPEProject\\Retail_Product_Management\\VendorMicroservice\\VendorMicroservice.csproj",
       "packagesPath": "C:\\Users\\Pranay Sagar\\.nuget\\packages\\",
-      "outputPath": "D:\\MFPEProject\\Retail_Product_Management\\Retail_Product_Management\\VendorMicroservice\\obj\\",
+      "outputPath": "D:\\MFPEProject\\Retail_Product_Management\\VendorMicroservice\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Pranay Sagar\\AppData\\Roaming\\NuGet\\NuGet.Config",
